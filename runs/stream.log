@@ -1,0 +1,72 @@
+{
+  "target": "logreg",
+  "tau": 0.8,
+  "n": 6000,
+  "recompile_every": 250,
+  "teacher_cost_per_call_usd": 0.0005215396711100113,
+  "compute_usd_per_hour": 1.0,
+  "teacher_calls": 2283,
+  "student_answers": 3717,
+  "overall_accuracy": 0.9256666666666666,
+  "always_llm_accuracy": 0.9223333333333333,
+  "total_cost_jit": 1.21939220519972,
+  "total_cost_llm": 3.1292380266600963,
+  "total_compile_s": 103.38168979999318,
+  "breakeven_step": 289
+}
+      1-  250 acc=0.952 teacher_rate=1.00
+    751- 1000 acc=0.928 teacher_rate=0.60
+   1501- 1750 acc=0.916 teacher_rate=0.36
+   2251- 2500 acc=0.928 teacher_rate=0.32
+   3001- 3250 acc=0.928 teacher_rate=0.29
+   3751- 4000 acc=0.888 teacher_rate=0.30
+   4501- 4750 acc=0.928 teacher_rate=0.23
+   5251- 5500 acc=0.920 teacher_rate=0.25
+{
+  "target": "logreg",
+  "tau": 0.9,
+  "n": 6000,
+  "recompile_every": 250,
+  "teacher_cost_per_call_usd": 0.0005215396711100113,
+  "compute_usd_per_hour": 1.0,
+  "teacher_calls": 2665,
+  "student_answers": 3335,
+  "overall_accuracy": 0.9263333333333333,
+  "always_llm_accuracy": 0.9223333333333333,
+  "total_cost_jit": 1.4230347693415266,
+  "total_cost_llm": 3.1292380266600963,
+  "total_compile_s": 119.27356500000315,
+  "breakeven_step": 292
+}
+      1-  250 acc=0.952 teacher_rate=1.00
+    751- 1000 acc=0.924 teacher_rate=0.67
+   1501- 1750 acc=0.924 teacher_rate=0.41
+   2251- 2500 acc=0.916 teacher_rate=0.43
+   3001- 3250 acc=0.932 teacher_rate=0.36
+   3751- 4000 acc=0.880 teacher_rate=0.35
+   4501- 4750 acc=0.924 teacher_rate=0.29
+   5251- 5500 acc=0.920 teacher_rate=0.35
+{
+  "target": "semantic_cache",
+  "tau": 0.8,
+  "n": 6000,
+  "recompile_every": 250,
+  "teacher_cost_per_call_usd": 0.0005215396711100113,
+  "compute_usd_per_hour": 1.0,
+  "teacher_calls": 2269,
+  "student_answers": 3731,
+  "overall_accuracy": 0.9166666666666666,
+  "always_llm_accuracy": 0.9223333333333333,
+  "total_cost_jit": 1.1835527605819647,
+  "total_cost_llm": 3.1292380266600963,
+  "total_compile_s": 0.64528860001883,
+  "breakeven_step": 273
+}
+      1-  250 acc=0.952 teacher_rate=1.00
+    751- 1000 acc=0.900 teacher_rate=0.50
+   1501- 1750 acc=0.892 teacher_rate=0.41
+   2251- 2500 acc=0.936 teacher_rate=0.32
+   3001- 3250 acc=0.928 teacher_rate=0.27
+   3751- 4000 acc=0.884 teacher_rate=0.36
+   4501- 4750 acc=0.920 teacher_rate=0.28
+   5251- 5500 acc=0.920 teacher_rate=0.28

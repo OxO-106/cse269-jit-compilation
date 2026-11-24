@@ -1,0 +1,350 @@
+{"query": "does osteria francescana take reservations", "true": "accept_reservations", "pred": "accept_reservations", "confidence": 0.9199, "p_top": 0.9205, "latency_s": 12.66933330000029}
+{"query": "does village inn let you make reservations", "true": "accept_reservations", "pred": "accept_reservations", "confidence": 0.6353, "p_top": 0.6378, "latency_s": 12.456163300004846}
+{"query": "there seems to be an issue with my account", "true": "account_blocked", "pred": "account_blocked", "confidence": 0.6475, "p_top": 0.6499, "latency_s": 12.316135299995949}
+{"query": "why can't i access my chase account", "true": "account_blocked", "pred": "account_blocked", "confidence": 0.8977, "p_top": 0.8984, "latency_s": 12.262635700004466}
+{"query": "i need an alarm set now", "true": "alarm", "pred": "alarm", "confidence": 0.9845, "p_top": 0.9846, "latency_s": 12.780521200002113}
+{"query": "set an alarm for 6 am tomorrow", "true": "alarm", "pred": "alarm", "confidence": 0.9968, "p_top": 0.9969, "latency_s": 12.498845299996901}
+{"query": "can you check if my credit card application has been processed", "true": "application_status", "pred": "application_status", "confidence": 0.9936, "p_top": 0.9937, "latency_s": 12.46211900000344}
+{"query": "let me know the credit card application status", "true": "application_status", "pred": "application_status", "confidence": 0.9924, "p_top": 0.9925, "latency_s": 12.265675399998145}
+{"query": "what's the apr on my credit card", "true": "apr", "pred": "apr", "confidence": 0.9871, "p_top": 0.9872, "latency_s": 12.264328800003568}
+{"query": "what's my credit card's annual percentage rate", "true": "apr", "pred": "apr", "confidence": 0.9849, "p_top": 0.985, "latency_s": 12.380874100002984}
+{"query": "are you a person or robot", "true": "are_you_a_bot", "pred": "are_you_a_bot", "confidence": 0.9821, "p_top": 0.9822, "latency_s": 12.428605000000971}
+{"query": "am i talking to a real live person", "true": "are_you_a_bot", "pred": "are_you_a_bot", "confidence": 0.9837, "p_top": 0.9838, "latency_s": 12.496781199995894}
+{"query": "check my checking balance", "true": "balance", "pred": "balance", "confidence": 0.9841, "p_top": 0.9842, "latency_s": 12.152730100002373}
+{"query": "i want some nike's, is there enough in my wells fargo account", "true": "balance", "pred": "balance", "confidence": 0.9117, "p_top": 0.9123, "latency_s": 12.31691989999672}
+{"query": "what are my bills this month", "true": "bill_balance", "pred": "bill_due", "confidence": 0.7887, "p_top": 0.7901, "latency_s": 12.26059059999534}
+{"query": "how much does my water and electricity cost", "true": "bill_balance", "pred": "bill_balance", "confidence": 0.5347, "p_top": 0.5378, "latency_s": 12.226241199998185}
+{"query": "i need to find out how to check the due date for the water bill", "true": "bill_due", "pred": "bill_due", "confidence": 0.863, "p_top": 0.8639, "latency_s": 12.378290300002845}
+{"query": "when does my gas bill need paid by", "true": "bill_due", "pred": "bill_due", "confidence": 0.9652, "p_top": 0.9655, "latency_s": 12.219116599997506}
+{"query": "i need a flight for under 300 from pittsburgh to atlanta", "true": "book_flight", "pred": "book_flight", "confidence": 0.9967, "p_top": 0.9967, "latency_s": 12.311184599995613}
+{"query": "i need to book a flight on jet blue to boston from new york", "true": "book_flight", "pred": "book_flight", "confidence": 0.998, "p_top": 0.9981, "latency_s": 12.255911899999774}
+{"query": "i need to get a hotel room that is big enough for eleven people from march 10th to the 15th in phoenix", "true": "book_hotel", "pred": "book_hotel", "confidence": 0.9935, "p_top": 0.9935, "latency_s": 12.371785200004524}
+{"query": "i would like to book a place to stay in phoenix from the 5th to the 9th of march", "true": "book_hotel", "pred": "book_hotel", "confidence": 0.9979, "p_top": 0.9979, "latency_s": 12.364969300004304}
+{"query": "tell me the answer to 1000 divided by 40", "true": "calculator", "pred": "calculator", "confidence": 0.9929, "p_top": 0.9929, "latency_s": 12.33934159999626}
+{"query": "what is 48 multiplied by 4 divided by 2", "true": "calculator", "pred": "calculator", "confidence": 0.9962, "p_top": 0.9962, "latency_s": 12.331064099998912}
+{"query": "check my calendar for me, please", "true": "calendar", "pred": "calendar", "confidence": 0.9591, "p_top": 0.9594, "latency_s": 12.185370300001523}
+{"query": "do i have any appointments on my calendar march 22nd", "true": "calendar", "pred": "calendar", "confidence": 0.9909, "p_top": 0.991, "latency_s": 12.295042100005958}
+{"query": "take work from my calendar for may 7th", "true": "calendar_update", "pred": "calendar_update", "confidence": 0.7613, "p_top": 0.7629, "latency_s": 12.675510999994003}
+{"query": "clear my calendar for november 11th", "true": "calendar_update", "pred": "calendar_update", "confidence": 0.9339, "p_top": 0.9343, "latency_s": 12.240473699996073}
+{"query": "how many calories are in a burger", "true": "calories", "pred": "calories", "confidence": 0.958, "p_top": 0.9582, "latency_s": 12.24587729999621}
+{"query": "what's the calorie content of french fries", "true": "calories", "pred": "calories", "confidence": 0.9704, "p_top": 0.9706, "latency_s": 12.248529199998302}
+{"query": "can you cancel that", "true": "cancel", "pred": "cancel", "confidence": 0.9613, "p_top": 0.9616, "latency_s": 12.14129910000338}
+{"query": "hush", "true": "cancel", "pred": "whisper_mode", "confidence": 0.6817, "p_top": 0.6838, "latency_s": 12.343918599995959}
+{"query": "cancel my reservation for dinner this saturday", "true": "cancel_reservation", "pred": "cancel_reservation", "confidence": 0.997, "p_top": 0.997, "latency_s": 12.35584270000254}
+{"query": "i have to cancel my reservation after all", "true": "cancel_reservation", "pred": "cancel_reservation", "confidence": 0.961, "p_top": 0.9613, "latency_s": 12.321581199998036}
+{"query": "i need to rent a car for may 3rd to may 5th in indianapolis and i'd like a mercedes", "true": "car_rental", "pred": "car_rental", "confidence": 0.9986, "p_top": 0.9986, "latency_s": 12.443049199995585}
+{"query": "find me a car rental for the weekend in asheville, nc via priceline", "true": "car_rental", "pred": "car_rental", "confidence": 0.9919, "p_top": 0.992, "latency_s": 12.407582799998636}
+{"query": "i was trying to buy food at publix but my card got declined", "true": "card_declined", "pred": "card_declined", "confidence": 0.9906, "p_top": 0.9907, "latency_s": 12.30260499999713}
+{"query": "can you tell me why my card got declined", "true": "card_declined", "pred": "card_declined", "confidence": 0.9958, "p_top": 0.9958, "latency_s": 12.37684110000555}
+{"query": "what is the carry-on policy for flights on transaero", "true": "carry_on", "pred": "carry_on", "confidence": 0.9856, "p_top": 0.9857, "latency_s": 12.271174399997108}
+{"query": "what are the size limits regarding-carry on bags", "true": "carry_on", "pred": "carry_on", "confidence": 0.9722, "p_top": 0.9724, "latency_s": 12.322867800001404}
+{"query": "speak with a male british accent", "true": "change_accent", "pred": "change_accent", "confidence": 0.9979, "p_top": 0.998, "latency_s": 12.343389499998011}
+{"query": "i like the female voice, switch please", "true": "change_accent", "pred": "change_accent", "confidence": 0.96, "p_top": 0.9603, "latency_s": 12.355796499999997}
+{"query": "i'd like to start calling you buddy", "true": "change_ai_name", "pred": "change_ai_name", "confidence": 0.9303, "p_top": 0.9308, "latency_s": 12.262304500000027}
+{"query": "i want to start calling you owen", "true": "change_ai_name", "pred": "change_ai_name", "confidence": 0.9893, "p_top": 0.9894, "latency_s": 12.393237600001157}
+{"query": "can you make the default language swedish", "true": "change_language", "pred": "change_language", "confidence": 0.9988, "p_top": 0.9988, "latency_s": 12.31928969999717}
+{"query": "would you understand me if i speak to you in navajo", "true": "change_language", "pred": "translate", "confidence": 0.665, "p_top": 0.6672, "latency_s": 12.35994909999863}
+{"query": "change voice speed", "true": "change_speed", "pred": "change_speed", "confidence": 0.7571, "p_top": 0.7587, "latency_s": 12.193022600004042}
+{"query": "can you talk faster", "true": "change_speed", "pred": "change_speed", "confidence": 0.9659, "p_top": 0.9662, "latency_s": 12.355961000001116}
+{"query": "could you call me by a different name, please", "true": "change_user_name", "pred": "change_user_name", "confidence": 0.9245, "p_top": 0.925, "latency_s": 12.291814900003374}
+{"query": "can you call me a different name", "true": "change_user_name", "pred": "change_user_name", "confidence": 0.9243, "p_top": 0.9248, "latency_s": 12.234776999997848}
+{"query": "turn down the volume", "true": "change_volume", "pred": "change_volume", "confidence": 0.9905, "p_top": 0.9905, "latency_s": 12.263016400000197}
+{"query": "can you speak quieter", "true": "change_volume", "pred": "change_volume", "confidence": 0.8965, "p_top": 0.8972, "latency_s": 12.232342899995274}
+{"query": "is there a reservation for mark at mimis", "true": "confirm_reservation", "pred": "confirm_reservation", "confidence": 0.604, "p_top": 0.6066, "latency_s": 12.36664749999909}
+{"query": "can you confirm that i have a reservation for 2/20 at 6:00 pm", "true": "confirm_reservation", "pred": "confirm_reservation", "confidence": 0.9869, "p_top": 0.987, "latency_s": 12.42537060000177}
+{"query": "can you tell me how long it will take to cook a lasagna", "true": "cook_time", "pred": "cook_time", "confidence": 0.9971, "p_top": 0.9971, "latency_s": 12.226126599998679}
+{"query": "i want to cook a lasagna please tell me how long it will take", "true": "cook_time", "pred": "cook_time", "confidence": 0.9891, "p_top": 0.9892, "latency_s": 12.363660700000764}
+{"query": "what is my credit limit on my discover", "true": "credit_limit", "pred": "credit_limit", "confidence": 0.9921, "p_top": 0.9922, "latency_s": 12.237115800002357}
+{"query": "i need you to tell me the credit limit for my republic bank card", "true": "credit_limit", "pred": "credit_limit", "confidence": 0.9932, "p_top": 0.9932, "latency_s": 12.250140800002555}
+{"query": "can i increase the credit limit on my discover card", "true": "credit_limit_change", "pred": "credit_limit_change", "confidence": 0.9874, "p_top": 0.9875, "latency_s": 12.300966700000572}
+{"query": "tell me how to increase credit limit for chase card", "true": "credit_limit_change", "pred": "credit_limit_change", "confidence": 0.9792, "p_top": 0.9794, "latency_s": 12.277250600003754}
+{"query": "tell me what my credit score is", "true": "credit_score", "pred": "credit_score", "confidence": 0.9985, "p_top": 0.9985, "latency_s": 12.303899999998976}
+{"query": "please tell me what my credit score is", "true": "credit_score", "pred": "credit_score", "confidence": 0.9984, "p_top": 0.9984, "latency_s": 12.145499700003711}
+{"query": "where would i search for my location", "true": "current_location", "pred": "current_location", "confidence": 0.8089, "p_top": 0.8101, "latency_s": 12.293113899999298}
+{"query": "show my position on the map", "true": "current_location", "pred": "current_location", "confidence": 0.7534, "p_top": 0.755, "latency_s": 12.186426400003256}
+{"query": "my visa has been damaged", "true": "damaged_card", "pred": "damaged_card", "confidence": 0.9687, "p_top": 0.9689, "latency_s": 12.183673900006397}
+{"query": "tell me how to go about reporting a damaged card", "true": "damaged_card", "pred": "damaged_card", "confidence": 0.9635, "p_top": 0.9638, "latency_s": 12.333013499999652}
+{"query": "which day is it now", "true": "date", "pred": "date", "confidence": 0.9767, "p_top": 0.9768, "latency_s": 12.151751799996418}
+{"query": "what's tomorrow's date", "true": "date", "pred": "date", "confidence": 0.9893, "p_top": 0.9893, "latency_s": 12.275423400002182}
+{"query": "can you tell me what dendrofilous means", "true": "definition", "pred": "definition", "confidence": 0.9447, "p_top": 0.9451, "latency_s": 12.23258899999928}
+{"query": "what's the definition of remunerative", "true": "definition", "pred": "definition", "confidence": 0.9169, "p_top": 0.9175, "latency_s": 12.195955399998638}
+{"query": "what do i need to do to set up direct deposit", "true": "direct_deposit", "pred": "direct_deposit", "confidence": 0.9969, "p_top": 0.9969, "latency_s": 12.371705500001553}
+{"query": "can you tell me how to set up direct deposit", "true": "direct_deposit", "pred": "direct_deposit", "confidence": 0.9974, "p_top": 0.9974, "latency_s": 12.252881799999159}
+{"query": "show me the nearest gas station", "true": "directions", "pred": "gas", "confidence": 0.5995, "p_top": 0.6021, "latency_s": 12.329360700001416}
+{"query": "where is the closest mcdonald's to foxwoods casino", "true": "directions", "pred": "directions", "confidence": 0.5469, "p_top": 0.5499, "latency_s": 12.24424590000126}
+{"query": "how long does it take to get downtown by bus", "true": "distance", "pred": "distance", "confidence": 0.5031, "p_top": 0.5064, "latency_s": 12.157003899999836}
+{"query": "which way do we go and how long will it take to get to the sears tower in chicago", "true": "distance", "pred": "directions", "confidence": 0.896, "p_top": 0.8967, "latency_s": 12.338941900001373}
+{"query": "which pets do you have", "true": "do_you_have_pets", "pred": "do_you_have_pets", "confidence": 0.9972, "p_top": 0.9972, "latency_s": 12.263581899998826}
+{"query": "please tell me the types of pets you have", "true": "do_you_have_pets", "pred": "do_you_have_pets", "confidence": 0.9937, "p_top": 0.9937, "latency_s": 12.327273599999899}
+{"query": "in canadian dollars, what is $30", "true": "exchange_rate", "pred": "exchange_rate", "confidence": 0.8771, "p_top": 0.878, "latency_s": 12.170964700002514}
+{"query": "what is the conversion of $30 in canadian dollars", "true": "exchange_rate", "pred": "exchange_rate", "confidence": 0.9497, "p_top": 0.95, "latency_s": 12.311591400000907}
+{"query": "let me know when my credit card expire", "true": "expiration_date", "pred": "expiration_date", "confidence": 0.9881, "p_top": 0.9882, "latency_s": 12.251792199996999}
+{"query": "when is the date of expiration for my first bank card", "true": "expiration_date", "pred": "expiration_date", "confidence": 0.9892, "p_top": 0.9893, "latency_s": 12.299898299999768}
+{"query": "my phone isn't where i left it", "true": "find_phone", "pred": "find_phone", "confidence": 0.9635, "p_top": 0.9637, "latency_s": 12.319675499995355}
+{"query": "is my phone somewhere around here", "true": "find_phone", "pred": "find_phone", "confidence": 0.9768, "p_top": 0.977, "latency_s": 12.209831300002406}
+{"query": "is my flight, dl123 on time", "true": "flight_status", "pred": "flight_status", "confidence": 0.9958, "p_top": 0.9958, "latency_s": 12.5834840000025}
+{"query": "what time is boarding for my flight", "true": "flight_status", "pred": "flight_status", "confidence": 0.87, "p_top": 0.8709, "latency_s": 12.261191900004633}
+{"query": "give me the results of a coin flip", "true": "flip_coin", "pred": "flip_coin", "confidence": 0.9927, "p_top": 0.9927, "latency_s": 12.254791400002432}
+{"query": "ai, flip a coin for me", "true": "flip_coin", "pred": "flip_coin", "confidence": 0.996, "p_top": 0.9961, "latency_s": 12.31976399999985}
+{"query": "how long can i keep milk in the fridge", "true": "food_last", "pred": "food_last", "confidence": 0.9964, "p_top": 0.9964, "latency_s": 12.304945999996562}
+{"query": "what length of time is safe for consuming leftover meatloaf stored in the fridge", "true": "food_last", "pred": "food_last", "confidence": 0.9984, "p_top": 0.9985, "latency_s": 12.46060870000656}
+{"query": "please stop my account", "true": "freeze_account", "pred": "freeze_account", "confidence": 0.796, "p_top": 0.7974, "latency_s": 12.404791200002364}
+{"query": "i am hoping you can put a stop on my bank account", "true": "freeze_account", "pred": "freeze_account", "confidence": 0.9409, "p_top": 0.9413, "latency_s": 12.409311000003072}
+{"query": "give me a fun fact about koala", "true": "fun_fact", "pred": "fun_fact", "confidence": 0.9784, "p_top": 0.9786, "latency_s": 12.359874599998875}
+{"query": "what's something interesting about bees", "true": "fun_fact", "pred": "fun_fact", "confidence": 0.9656, "p_top": 0.9658, "latency_s": 12.352999200003978}
+{"query": "how much gas do i have left in my tank", "true": "gas", "pred": "gas", "confidence": 0.9502, "p_top": 0.9505, "latency_s": 12.380726999996114}
+{"query": "how's my gasoline how much do i have left", "true": "gas", "pred": "gas", "confidence": 0.8693, "p_top": 0.8702, "latency_s": 12.387845999997808}
+{"query": "which type of gas should i get", "true": "gas_type", "pred": "gas_type", "confidence": 0.9328, "p_top": 0.9333, "latency_s": 12.430591600001208}
+{"query": "i want to know what kind of gas this car uses", "true": "gas_type", "pred": "gas_type", "confidence": 0.972, "p_top": 0.9722, "latency_s": 12.408705000001646}
+{"query": "good bye", "true": "goodbye", "pred": "goodbye", "confidence": 0.9938, "p_top": 0.9939, "latency_s": 12.421262300005765}
+{"query": "have a good day, bye", "true": "goodbye", "pred": "goodbye", "confidence": 0.9933, "p_top": 0.9933, "latency_s": 12.402998300000036}
+{"query": "hola!", "true": "greeting", "pred": "greeting", "confidence": 0.9172, "p_top": 0.9177, "latency_s": 12.36812739999732}
+{"query": "hey there", "true": "greeting", "pred": "greeting", "confidence": 0.9674, "p_top": 0.9676, "latency_s": 12.42343080000137}
+{"query": "can i get a table for four at 8:00", "true": "how_busy", "pred": "restaurant_reservation", "confidence": 0.9243, "p_top": 0.9248, "latency_s": 12.525003100003232}
+{"query": "how long before i can eat at chic fil a", "true": "how_busy", "pred": "how_busy", "confidence": 0.5245, "p_top": 0.5277, "latency_s": 12.411424300000363}
+{"query": "do you mind if i ask how old you are", "true": "how_old_are_you", "pred": "how_old_are_you", "confidence": 0.9954, "p_top": 0.9954, "latency_s": 12.473978000001807}
+{"query": "your date of birth", "true": "how_old_are_you", "pred": "how_old_are_you", "confidence": 0.7706, "p_top": 0.7721, "latency_s": 12.349960900006408}
+{"query": "\"when the credit score improve", "true": "improve_credit_score", "pred": "improve_credit_score", "confidence": 0.9689, "p_top": 0.9691, "latency_s": 12.375983099998848}
+{"query": "how is it possible to get a better credit score", "true": "improve_credit_score", "pred": "improve_credit_score", "confidence": 0.9984, "p_top": 0.9984, "latency_s": 12.356383300000743}
+{"query": "what is my income this year", "true": "income", "pred": "income", "confidence": 0.9731, "p_top": 0.9733, "latency_s": 12.372804400001769}
+{"query": "what do i bring in over a year", "true": "income", "pred": "income", "confidence": 0.5064, "p_top": 0.5096, "latency_s": 12.342068500001915}
+{"query": "could steak be used instead of chicken", "true": "ingredient_substitution", "pred": "ingredient_substitution", "confidence": 0.9634, "p_top": 0.9636, "latency_s": 12.45278629999666}
+{"query": "can i get peppers instead of onions", "true": "ingredient_substitution", "pred": "ingredient_substitution", "confidence": 0.9583, "p_top": 0.9586, "latency_s": 12.448887400001695}
+{"query": "what ingredients does agor agor need", "true": "ingredients_list", "pred": "ingredients_list", "confidence": 0.9175, "p_top": 0.918, "latency_s": 12.359914499997103}
+{"query": "what ingredients are in tacos", "true": "ingredients_list", "pred": "ingredients_list", "confidence": 0.9907, "p_top": 0.9908, "latency_s": 12.387167200002295}
+{"query": "what are the benefits of having this insurance", "true": "insurance", "pred": "insurance", "confidence": 0.8832, "p_top": 0.884, "latency_s": 12.400179599993862}
+{"query": "can you tell me what health plan i am on", "true": "insurance", "pred": "insurance", "confidence": 0.876, "p_top": 0.8768, "latency_s": 12.373223999995389}
+{"query": "what is the protocol for getting new insurance", "true": "insurance_change", "pred": "insurance", "confidence": 0.5143, "p_top": 0.5175, "latency_s": 12.419012199999997}
+{"query": "let me know the process for new insurance", "true": "insurance_change", "pred": "insurance", "confidence": 0.6204, "p_top": 0.623, "latency_s": 12.537238099997921}
+{"query": "how can i tell what the interest rate on my money market account is", "true": "interest_rate", "pred": "interest_rate", "confidence": 0.9956, "p_top": 0.9957, "latency_s": 12.510505899997952}
+{"query": "what interest rate am i getting from nfcu", "true": "interest_rate", "pred": "interest_rate", "confidence": 0.9479, "p_top": 0.9483, "latency_s": 12.378527700006089}
+{"query": "do i have transaction fees if i use my american card internationally", "true": "international_fees", "pred": "international_fees", "confidence": 0.9973, "p_top": 0.9973, "latency_s": 12.43864670000039}
+{"query": "is there a charge to use my card in france", "true": "international_fees", "pred": "international_fees", "confidence": 0.9977, "p_top": 0.9977, "latency_s": 12.564456600004632}
+{"query": "if i get a visa can i travel to japan", "true": "international_visa", "pred": "international_visa", "confidence": 0.9257, "p_top": 0.9262, "latency_s": 12.37250320000021}
+{"query": "i'd like to go to malaysia so do i need a visa", "true": "international_visa", "pred": "international_visa", "confidence": 0.987, "p_top": 0.9871, "latency_s": 12.511565900000278}
+{"query": "i'm almost certain my car battery died, please tell me what to do", "true": "jump_start", "pred": "jump_start", "confidence": 0.9402, "p_top": 0.9406, "latency_s": 12.428952700000082}
+{"query": "can you give me instructions on how to jump start my car, please", "true": "jump_start", "pred": "jump_start", "confidence": 0.9977, "p_top": 0.9977, "latency_s": 12.42724740000267}
+{"query": "give me the date that i last got my car checked", "true": "last_maintenance", "pred": "last_maintenance", "confidence": 0.9983, "p_top": 0.9983, "latency_s": 12.43837540000095}
+{"query": "tell me when i got my car checked last", "true": "last_maintenance", "pred": "last_maintenance", "confidence": 0.9975, "p_top": 0.9975, "latency_s": 12.380832299997564}
+{"query": "i seem to have lost my luggage! what are my options now", "true": "lost_luggage", "pred": "lost_luggage", "confidence": 0.9966, "p_top": 0.9966, "latency_s": 12.425371600002109}
+{"query": "what would be the best way to deal with lost luggage", "true": "lost_luggage", "pred": "lost_luggage", "confidence": 0.9802, "p_top": 0.9804, "latency_s": 12.563444799998251}
+{"query": "x needs to be called by me", "true": "make_call", "pred": "make_call", "confidence": 0.7143, "p_top": 0.7162, "latency_s": 12.459188000000722}
+{"query": "i need you to call the phone company for me", "true": "make_call", "pred": "make_call", "confidence": 0.7388, "p_top": 0.7405, "latency_s": 12.460854999997537}
+{"query": "i'm afraid i don't know how to answer that", "true": "maybe", "pred": "oos", "confidence": 0.7003, "p_top": 0.7023, "latency_s": 12.480718500002695}
+{"query": "not sure", "true": "maybe", "pred": "maybe", "confidence": 0.8853, "p_top": 0.8861, "latency_s": 12.343219499998668}
+{"query": "i want to make something from ethiopia for dinner", "true": "meal_suggestion", "pred": "meal_suggestion", "confidence": 0.5568, "p_top": 0.5597, "latency_s": 12.409192799997982}
+{"query": "i want to try a meal from ireland", "true": "meal_suggestion", "pred": "meal_suggestion", "confidence": 0.5764, "p_top": 0.5792, "latency_s": 12.45946830000321}
+{"query": "can you tell me about the meaning of life", "true": "meaning_of_life", "pred": "meaning_of_life", "confidence": 0.9969, "p_top": 0.9969, "latency_s": 12.33594820000144}
+{"query": "right now, i need to know the meaning of life", "true": "meaning_of_life", "pred": "meaning_of_life", "confidence": 0.9964, "p_top": 0.9964, "latency_s": 12.392109200001869}
+{"query": "inform me how many pounds are in 10 kilos", "true": "measurement_conversion", "pred": "measurement_conversion", "confidence": 0.9743, "p_top": 0.9744, "latency_s": 12.344658300004085}
+{"query": "how does measurement a convert to measurement b", "true": "measurement_conversion", "pred": "measurement_conversion", "confidence": 0.9549, "p_top": 0.9552, "latency_s": 12.387553499997011}
+{"query": "do i have any meetings scheduled today", "true": "meeting_schedule", "pred": "meeting_schedule", "confidence": 0.9923, "p_top": 0.9924, "latency_s": 12.398392199997033}
+{"query": "exactly what time is my meeting with robin scheduled for on", "true": "meeting_schedule", "pred": "meeting_schedule", "confidence": 0.9509, "p_top": 0.9512, "latency_s": 12.464638500001456}
+{"query": "what is the minimum payment on my water bill", "true": "min_payment", "pred": "min_payment", "confidence": 0.9834, "p_top": 0.9835, "latency_s": 12.488063999997394}
+{"query": "what must i pay, at a minimum, on my verizon bill", "true": "min_payment", "pred": "min_payment", "confidence": 0.969, "p_top": 0.9692, "latency_s": 12.568461199996818}
+{"query": "how is the car's fuel economy", "true": "mpg", "pred": "mpg", "confidence": 0.9524, "p_top": 0.9527, "latency_s": 12.30898889999662}
+{"query": "what is my car's gas mileage", "true": "mpg", "pred": "mpg", "confidence": 0.9941, "p_top": 0.9942, "latency_s": 12.45671250000305}
+{"query": "i wish to apply for a visa card", "true": "new_card", "pred": "new_card", "confidence": 0.7951, "p_top": 0.7965, "latency_s": 12.36367159999645}
+{"query": "do you have any information on how to open a new credit card", "true": "new_card", "pred": "new_card", "confidence": 0.9289, "p_top": 0.9294, "latency_s": 12.476153899995552}
+{"query": "find the next holiday", "true": "next_holiday", "pred": "next_holiday", "confidence": 0.9781, "p_top": 0.9783, "latency_s": 12.481228000004194}
+{"query": "i need to know how long until the next day off", "true": "next_holiday", "pred": "next_holiday", "confidence": 0.9919, "p_top": 0.9919, "latency_s": 12.369863500003703}
+{"query": "please play the next track", "true": "next_song", "pred": "next_song", "confidence": 0.9879, "p_top": 0.988, "latency_s": 12.643388199998299}
+{"query": "change this song please", "true": "next_song", "pred": "update_playlist", "confidence": 0.7131, "p_top": 0.715, "latency_s": 12.588159600003564}
+{"query": "it is very much false", "true": "no", "pred": "no", "confidence": 0.7896, "p_top": 0.791, "latency_s": 12.69398309999815}
+{"query": "that's a negatory", "true": "no", "pred": "no", "confidence": 0.6811, "p_top": 0.6832, "latency_s": 12.80926719999843}
+{"query": "find the nutrition info for ketchup for me", "true": "nutrition_info", "pred": "nutrition_info", "confidence": 0.9883, "p_top": 0.9884, "latency_s": 12.60041320000164}
+{"query": "tell me the nutrition facts for shepherd's pie", "true": "nutrition_info", "pred": "nutrition_info", "confidence": 0.9915, "p_top": 0.9915, "latency_s": 12.489128100001835}
+{"query": "what oil do i use when changing oil and how do i do it", "true": "oil_change_how", "pred": "oil_change_how", "confidence": 0.9892, "p_top": 0.9893, "latency_s": 12.613485900001251}
+{"query": "help me figure out how to change my oil", "true": "oil_change_how", "pred": "oil_change_how", "confidence": 0.9959, "p_top": 0.9959, "latency_s": 12.711839599993255}
+{"query": "when is my car's next oil change supposed to be", "true": "oil_change_when", "pred": "oil_change_when", "confidence": 0.9927, "p_top": 0.9928, "latency_s": 12.406781199999386}
+{"query": "when do you think i ought to change the oil in my car next", "true": "oil_change_when", "pred": "oil_change_when", "confidence": 0.9941, "p_top": 0.9942, "latency_s": 12.536525799994706}
+{"query": "zip the back of the brides maid dress", "true": "oos", "pred": "oos", "confidence": 0.8269, "p_top": 0.828, "latency_s": 12.259110300001339}
+{"query": "is there an internet outage in my area", "true": "oos", "pred": "oos", "confidence": 0.8721, "p_top": 0.873, "latency_s": 12.14627350000228}
+{"query": "restart my newspaper delivery for monday", "true": "oos", "pred": "oos", "confidence": 0.8285, "p_top": 0.8297, "latency_s": 12.286993300003815}
+{"query": "how much is this years model of my car cost", "true": "oos", "pred": "oos", "confidence": 0.6651, "p_top": 0.6673, "latency_s": 12.253121800000372}
+{"query": "where can i find the best divorce lawyer", "true": "oos", "pred": "oos", "confidence": 0.9767, "p_top": 0.9769, "latency_s": 12.302504899998894}
+{"query": "are all the street lamps working on my street", "true": "oos", "pred": "oos", "confidence": 0.7879, "p_top": 0.7893, "latency_s": 12.218930600000022}
+{"query": "what's the latest vc funded company", "true": "oos", "pred": "oos", "confidence": 0.9144, "p_top": 0.915, "latency_s": 12.241612600002554}
+{"query": "can you tell me what the best places are to look for a job online", "true": "oos", "pred": "oos", "confidence": 0.9138, "p_top": 0.9143, "latency_s": 12.30306450000353}
+{"query": "what's the best hand to have in texas hold em", "true": "oos", "pred": "oos", "confidence": 0.9014, "p_top": 0.902, "latency_s": 12.305759300004866}
+{"query": "where are most the servicemen right now", "true": "oos", "pred": "oos", "confidence": 0.5454, "p_top": 0.5484, "latency_s": 12.296111099996779}
+{"query": "can a samurai sword deflect a bullet", "true": "oos", "pred": "oos", "confidence": 0.8633, "p_top": 0.8642, "latency_s": 12.322142999997595}
+{"query": "how do i use my microwaves defrost", "true": "oos", "pred": "oos", "confidence": 0.7103, "p_top": 0.7122, "latency_s": 12.364952600000834}
+{"query": "where can i get the flu shot", "true": "oos", "pred": "oos", "confidence": 0.6623, "p_top": 0.6645, "latency_s": 12.279061000001093}
+{"query": "i need to hire a grass treatment specialist", "true": "oos", "pred": "oos", "confidence": 0.9184, "p_top": 0.919, "latency_s": 12.225022600003285}
+{"query": "find the best prices for toothpaste at any store within a 5 mile radius of my location", "true": "oos", "pred": "oos", "confidence": 0.9611, "p_top": 0.9614, "latency_s": 12.447387400003208}
+{"query": "tell me what the longest tributary is in venezuela", "true": "oos", "pred": "oos", "confidence": 0.9589, "p_top": 0.9592, "latency_s": 12.316607900000236}
+{"query": "search all movies created by disney in the 1980's", "true": "oos", "pred": "oos", "confidence": 0.9308, "p_top": 0.9313, "latency_s": 12.40501580000273}
+{"query": "are polar bears on the endangered species list", "true": "oos", "pred": "oos", "confidence": 0.9292, "p_top": 0.9296, "latency_s": 12.354290899995249}
+{"query": "what's a good way of backing out of a parking spot", "true": "oos", "pred": "oos", "confidence": 0.577, "p_top": 0.5798, "latency_s": 12.277184700004}
+{"query": "what's the cost of bottled water", "true": "oos", "pred": "oos", "confidence": 0.8574, "p_top": 0.8584, "latency_s": 12.36759439999878}
+{"query": "can i deposit a check", "true": "oos", "pred": "order_checks", "confidence": 0.4439, "p_top": 0.4476, "latency_s": 12.174574700002267}
+{"query": "the bus moves with tyre", "true": "oos", "pred": "oos", "confidence": 0.3028, "p_top": 0.3074, "latency_s": 12.330438299999514}
+{"query": "show me what one should do to get ahead in a tech corporation", "true": "oos", "pred": "oos", "confidence": 0.95, "p_top": 0.9503, "latency_s": 12.385598100001516}
+{"query": "when will world war 3 begin", "true": "oos", "pred": "oos", "confidence": 0.9714, "p_top": 0.9716, "latency_s": 12.316886799999338}
+{"query": "where should i go if i hammered a nail through my foot", "true": "oos", "pred": "oos", "confidence": 0.5612, "p_top": 0.5641, "latency_s": 12.394532399994205}
+{"query": "start a portfolio on venture capital funding for me to look over", "true": "oos", "pred": "oos", "confidence": 0.5948, "p_top": 0.5975, "latency_s": 12.311679799997364}
+{"query": "show me how to contact a paranormal spirit", "true": "oos", "pred": "oos", "confidence": 0.9499, "p_top": 0.9503, "latency_s": 12.309464900004969}
+{"query": "send information on flood clean up to my phone", "true": "oos", "pred": "text", "confidence": 0.6619, "p_top": 0.6642, "latency_s": 12.28897169999982}
+{"query": "please read the text message i just received", "true": "oos", "pred": "text", "confidence": 0.757, "p_top": 0.7586, "latency_s": 12.32108000000153}
+{"query": "i am looking for a suit for work", "true": "oos", "pred": "oos", "confidence": 0.8142, "p_top": 0.8154, "latency_s": 12.262326900003245}
+{"query": "am i connected to wifi", "true": "oos", "pred": "oos", "confidence": 0.7684, "p_top": 0.7699, "latency_s": 12.236732299999858}
+{"query": "is the earth flat", "true": "oos", "pred": "oos", "confidence": 0.9125, "p_top": 0.9131, "latency_s": 12.310553600000276}
+{"query": "look on amazon for the price of a nitendo switch", "true": "oos", "pred": "oos", "confidence": 0.544, "p_top": 0.547, "latency_s": 12.276284300001862}
+{"query": "how do you unclog a toilet", "true": "oos", "pred": "oos", "confidence": 0.9564, "p_top": 0.9567, "latency_s": 12.20821530000103}
+{"query": "what's going on in the world today", "true": "oos", "pred": "oos", "confidence": 0.5379, "p_top": 0.541, "latency_s": 12.31724089999625}
+{"query": "please read me the last text message i received", "true": "oos", "pred": "text", "confidence": 0.5775, "p_top": 0.5803, "latency_s": 12.242121499999485}
+{"query": "erase all voicemails in my inbox please", "true": "oos", "pred": "oos", "confidence": 0.876, "p_top": 0.8768, "latency_s": 12.311477799994464}
+{"query": "look up some christmas songs for me", "true": "oos", "pred": "play_music", "confidence": 0.5955, "p_top": 0.5981, "latency_s": 12.29643500000384}
+{"query": "search the web for monthly parking near my house", "true": "oos", "pred": "oos", "confidence": 0.8377, "p_top": 0.8388, "latency_s": 12.359302800003206}
+{"query": "what is the extra digits that are sometimes included on my zip code", "true": "oos", "pred": "oos", "confidence": 0.8278, "p_top": 0.8289, "latency_s": 12.305514500003483}
+{"query": "when was the term \"zombie\" first used", "true": "oos", "pred": "oos", "confidence": 0.7679, "p_top": 0.7694, "latency_s": 12.527151299997058}
+{"query": "who won in the gsw vs suns game last night", "true": "oos", "pred": "oos", "confidence": 0.9019, "p_top": 0.9025, "latency_s": 12.741145799998776}
+{"query": "order me a book of stamps and envelopes", "true": "oos", "pred": "order", "confidence": 0.8108, "p_top": 0.812, "latency_s": 12.587339900004736}
+{"query": "what is that crunchy stuff on creme bruleo", "true": "oos", "pred": "ingredients_list", "confidence": 0.6653, "p_top": 0.6675, "latency_s": 12.59262220000528}
+{"query": "it is white colour", "true": "oos", "pred": "oos", "confidence": 0.6, "p_top": 0.6027, "latency_s": 12.313154600000416}
+{"query": "find a credit counseling service for me on the web", "true": "oos", "pred": "oos", "confidence": 0.7587, "p_top": 0.7603, "latency_s": 12.37332819999574}
+{"query": "does dhl deliver to my address", "true": "oos", "pred": "oos", "confidence": 0.8872, "p_top": 0.8879, "latency_s": 12.332636500002991}
+{"query": "what should i do if i saw a cockroach in my house", "true": "oos", "pred": "oos", "confidence": 0.9487, "p_top": 0.949, "latency_s": 12.354449500002374}
+{"query": "what kinds of cereal are gluten free", "true": "oos", "pred": "oos", "confidence": 0.7582, "p_top": 0.7598, "latency_s": 12.306603299999551}
+{"query": "how many voicemail messages do i have", "true": "oos", "pred": "oos", "confidence": 0.8399, "p_top": 0.841, "latency_s": 12.295674200002395}
+{"query": "place my order alexa", "true": "order", "pred": "order", "confidence": 0.5773, "p_top": 0.5801, "latency_s": 12.213006800004223}
+{"query": "will you please go on amazon so i can buy speakers", "true": "order", "pred": "oos", "confidence": 0.4441, "p_top": 0.4478, "latency_s": 12.349386000001687}
+{"query": "how do i order some more checks for my usaa account", "true": "order_checks", "pred": "order_checks", "confidence": 0.9988, "p_top": 0.9988, "latency_s": 12.396199599999818}
+{"query": "i'm out of all my checks can i get some new ones", "true": "order_checks", "pred": "order_checks", "confidence": 0.9224, "p_top": 0.923, "latency_s": 12.396520900001633}
+{"query": "i need to track the status of my order", "true": "order_status", "pred": "order_status", "confidence": 0.9952, "p_top": 0.9952, "latency_s": 12.246871100003773}
+{"query": "i placed an order and i need it tracked", "true": "order_status", "pred": "order_status", "confidence": 0.9769, "p_top": 0.977, "latency_s": 12.342111099998874}
+{"query": "pay my utility bill from my bank account", "true": "pay_bill", "pred": "pay_bill", "confidence": 0.9858, "p_top": 0.9859, "latency_s": 12.197346499997366}
+{"query": "pay my gas bill with my checking account", "true": "pay_bill", "pred": "pay_bill", "confidence": 0.9768, "p_top": 0.9769, "latency_s": 12.258732800000871}
+{"query": "what was the date when i last go paid", "true": "payday", "pred": "payday", "confidence": 0.4393, "p_top": 0.443, "latency_s": 12.380328800005373}
+{"query": "how long until my paycheck shows up", "true": "payday", "pred": "payday", "confidence": 0.9723, "p_top": 0.9725, "latency_s": 12.234316299996863}
+{"query": "i don't remember the pin number to my card", "true": "pin_change", "pred": "pin_change", "confidence": 0.9089, "p_top": 0.9095, "latency_s": 12.279767600004561}
+{"query": "tell me the pin number for my checking account", "true": "pin_change", "pred": "oos", "confidence": 0.5908, "p_top": 0.5935, "latency_s": 12.25120529999549}
+{"query": "let me hear my slow songs", "true": "play_music", "pred": "play_music", "confidence": 0.8261, "p_top": 0.8272, "latency_s": 12.330527999998594}
+{"query": "play oldschool rap", "true": "play_music", "pred": "play_music", "confidence": 0.9849, "p_top": 0.985, "latency_s": 12.259402499999851}
+{"query": "are socket converters needed if i'm going to cape town", "true": "plug_type", "pred": "plug_type", "confidence": 0.9941, "p_top": 0.9941, "latency_s": 12.405297099998279}
+{"query": "electrical plugs used in that country", "true": "plug_type", "pred": "plug_type", "confidence": 0.9973, "p_top": 0.9973, "latency_s": 12.408110299998953}
+{"query": "please tell me the exact number of days i have still for vacation", "true": "pto_balance", "pred": "pto_balance", "confidence": 0.9688, "p_top": 0.969, "latency_s": 12.513315800002601}
+{"query": "what do my pto days amount to", "true": "pto_balance", "pred": "pto_balance", "confidence": 0.8608, "p_top": 0.8618, "latency_s": 12.805224600000656}
+{"query": "how do i put in a vacation request", "true": "pto_request", "pred": "pto_request", "confidence": 0.9856, "p_top": 0.9857, "latency_s": 15.10064560000319}
+{"query": "can i put in a pto request for august 1st to august 10th", "true": "pto_request", "pred": "pto_request", "confidence": 0.988, "p_top": 0.9881, "latency_s": 13.491205999998783}
+{"query": "i need to know status of my day off request", "true": "pto_request_status", "pred": "pto_request_status", "confidence": 0.9938, "p_top": 0.9938, "latency_s": 12.726518199997372}
+{"query": "can you let me know if my vacation was approved", "true": "pto_request_status", "pred": "pto_request_status", "confidence": 0.9931, "p_top": 0.9931, "latency_s": 12.585968100000173}
+{"query": "tell me how many days i took off", "true": "pto_used", "pred": "pto_used", "confidence": 0.9481, "p_top": 0.9484, "latency_s": 13.136691799998516}
+{"query": "how many days off have i taken until right now", "true": "pto_used", "pred": "pto_used", "confidence": 0.9094, "p_top": 0.91, "latency_s": 12.538361500002793}
+{"query": "what do i need to do to cook a chicken", "true": "recipe", "pred": "recipe", "confidence": 0.8339, "p_top": 0.835, "latency_s": 12.468549600002007}
+{"query": "how do you prepare omelet", "true": "recipe", "pred": "recipe", "confidence": 0.9631, "p_top": 0.9633, "latency_s": 12.213483200001065}
+{"query": "how do i use my card reward points for my next flight", "true": "redeem_rewards", "pred": "redeem_rewards", "confidence": 0.9396, "p_top": 0.94, "latency_s": 12.540675600001123}
+{"query": "i want to use my credit rewards now", "true": "redeem_rewards", "pred": "redeem_rewards", "confidence": 0.9618, "p_top": 0.962, "latency_s": 12.438744799997949}
+{"query": "my list of reminders contains what", "true": "reminder", "pred": "reminder", "confidence": 0.9034, "p_top": 0.904, "latency_s": 12.364612899997155}
+{"query": "what kinds of things are you supposed to remind me of", "true": "reminder", "pred": "what_can_i_ask_you", "confidence": 0.3949, "p_top": 0.3989, "latency_s": 12.491392999996606}
+{"query": "create a reminder to change my oil", "true": "reminder_update", "pred": "schedule_maintenance", "confidence": 0.4201, "p_top": 0.4239, "latency_s": 12.35383880000154}
+{"query": "are you able to remind me about something", "true": "reminder_update", "pred": "reminder", "confidence": 0.6057, "p_top": 0.6083, "latency_s": 12.42665329999727}
+{"query": "repeat that", "true": "repeat", "pred": "repeat", "confidence": 0.9899, "p_top": 0.99, "latency_s": 12.521558200001891}
+{"query": "can you please repeat that", "true": "repeat", "pred": "repeat", "confidence": 0.9932, "p_top": 0.9932, "latency_s": 12.342134999998962}
+{"query": "how soon can i expect a replacement card for my lost card to arrive", "true": "replacement_card_duration", "pred": "replacement_card_duration", "confidence": 0.9851, "p_top": 0.9852, "latency_s": 12.508914700003515}
+{"query": "time to replace my credit card", "true": "replacement_card_duration", "pred": "new_card", "confidence": 0.629, "p_top": 0.6315, "latency_s": 12.387213200003316}
+{"query": "i want to report fraudulent activity on my navy federal card", "true": "report_fraud", "pred": "report_fraud", "confidence": 0.9812, "p_top": 0.9813, "latency_s": 12.509124300006079}
+{"query": "i've got a fraudulent purchase from kayak on my account", "true": "report_fraud", "pred": "report_fraud", "confidence": 0.9659, "p_top": 0.9661, "latency_s": 12.363494800003537}
+{"query": "search steps for how to report a card lost", "true": "report_lost_card", "pred": "report_lost_card", "confidence": 0.9595, "p_top": 0.9598, "latency_s": 12.34327459999622}
+{"query": "i need to report that someone ran off with my td bank card earlier", "true": "report_lost_card", "pred": "report_lost_card", "confidence": 0.5469, "p_top": 0.5499, "latency_s": 12.440555699999095}
+{"query": "revert to the original configuration", "true": "reset_settings", "pred": "reset_settings", "confidence": 0.9841, "p_top": 0.9842, "latency_s": 12.479154300002847}
+{"query": "revert to factory settings", "true": "reset_settings", "pred": "reset_settings", "confidence": 0.9967, "p_top": 0.9967, "latency_s": 12.345258699999249}
+{"query": "reverse a table for 5 at burger king under the name sara at 6", "true": "restaurant_reservation", "pred": "cancel_reservation", "confidence": 0.3349, "p_top": 0.3393, "latency_s": 12.472040100001323}
+{"query": "reserve a table for 3 at 7 for olive garden", "true": "restaurant_reservation", "pred": "restaurant_reservation", "confidence": 0.9868, "p_top": 0.9869, "latency_s": 12.507792500000505}
+{"query": "my favorite, beef tacos at the buffet", "true": "restaurant_reviews", "pred": "oos", "confidence": 0.426, "p_top": 0.4298, "latency_s": 12.488226000001305}
+{"query": "is the review ned's have good", "true": "restaurant_reviews", "pred": "restaurant_reviews", "confidence": 0.8687, "p_top": 0.8696, "latency_s": 12.390717700000096}
+{"query": "what are the best restaurants open tonight", "true": "restaurant_suggestion", "pred": "restaurant_suggestion", "confidence": 0.9254, "p_top": 0.9259, "latency_s": 12.502332999996725}
+{"query": "can you find any good places in cleveland that serve clams", "true": "restaurant_suggestion", "pred": "restaurant_suggestion", "confidence": 0.9543, "p_top": 0.9546, "latency_s": 12.426405000005616}
+{"query": "i wanna know my credit card's rewards balance", "true": "rewards_balance", "pred": "rewards_balance", "confidence": 0.9973, "p_top": 0.9973, "latency_s": 12.395921100003761}
+{"query": "i would like to check my rewards for my debit card", "true": "rewards_balance", "pred": "rewards_balance", "confidence": 0.9283, "p_top": 0.9288, "latency_s": 12.453550400001404}
+{"query": "roll a fourteen sided dice exactly", "true": "roll_dice", "pred": "roll_dice", "confidence": 0.9844, "p_top": 0.9845, "latency_s": 12.324372900002345}
+{"query": "i need a dice roll for a six sided die", "true": "roll_dice", "pred": "roll_dice", "confidence": 0.998, "p_top": 0.9981, "latency_s": 12.365660700001172}
+{"query": "can 401ks be moved", "true": "rollover_401k", "pred": "rollover_401k", "confidence": 0.9878, "p_top": 0.9879, "latency_s": 12.18560399999842}
+{"query": "can i move my 401k to an ira", "true": "rollover_401k", "pred": "rollover_401k", "confidence": 0.986, "p_top": 0.9861, "latency_s": 12.266512000001967}
+{"query": "what is my routing number to my checking account at bb&t bankj", "true": "routing", "pred": "routing", "confidence": 0.9953, "p_top": 0.9953, "latency_s": 12.28635519999807}
+{"query": "can you tell me the routing number to pnc", "true": "routing", "pred": "routing", "confidence": 0.9653, "p_top": 0.9655, "latency_s": 12.186381300001813}
+{"query": "i need to make an appointment for an oil change, please", "true": "schedule_maintenance", "pred": "schedule_maintenance", "confidence": 0.976, "p_top": 0.9761, "latency_s": 12.296430000002147}
+{"query": "could someone look at my check engine light that's on", "true": "schedule_maintenance", "pred": "schedule_maintenance", "confidence": 0.5711, "p_top": 0.5739, "latency_s": 12.31510619999608}
+{"query": "are meeting rooms free between 8-3", "true": "schedule_meeting", "pred": "oos", "confidence": 0.3535, "p_top": 0.3577, "latency_s": 12.283025600001565}
+{"query": "please help me figure out how to set up a meeting", "true": "schedule_meeting", "pred": "schedule_meeting", "confidence": 0.974, "p_top": 0.9742, "latency_s": 12.274788199996692}
+{"query": "can you indicate my location to my friend", "true": "share_location", "pred": "share_location", "confidence": 0.9932, "p_top": 0.9933, "latency_s": 12.208130300001358}
+{"query": "what is my current location", "true": "share_location", "pred": "current_location", "confidence": 0.9757, "p_top": 0.9759, "latency_s": 12.208678499999223}
+{"query": "please let me know what is on my shopping list", "true": "shopping_list", "pred": "shopping_list", "confidence": 0.9937, "p_top": 0.9937, "latency_s": 12.262219199998071}
+{"query": "what things are on my shopping list today", "true": "shopping_list", "pred": "shopping_list", "confidence": 0.9941, "p_top": 0.9941, "latency_s": 12.43767239999579}
+{"query": "is milk in my shopping list if not, add it", "true": "shopping_list_update", "pred": "shopping_list_update", "confidence": 0.9332, "p_top": 0.9336, "latency_s": 12.402619200001936}
+{"query": "i don't need toilet paper anymore; take it off my shopping list", "true": "shopping_list_update", "pred": "shopping_list_update", "confidence": 0.956, "p_top": 0.9563, "latency_s": 12.585100500000408}
+{"query": "i need the temperature set at 70 f", "true": "smart_home", "pred": "smart_home", "confidence": 0.6823, "p_top": 0.6844, "latency_s": 12.441489199998614}
+{"query": "turn up the oven temperature to 350", "true": "smart_home", "pred": "smart_home", "confidence": 0.6603, "p_top": 0.6626, "latency_s": 12.394250899997132}
+{"query": "i need to know the proper spelling of curiosity", "true": "spelling", "pred": "spelling", "confidence": 0.9952, "p_top": 0.9953, "latency_s": 12.441401999996742}
+{"query": "i don't know how to spell apoplectic, can you tell me", "true": "spelling", "pred": "spelling", "confidence": 0.9912, "p_top": 0.9913, "latency_s": 12.389982200002123}
+{"query": "about how much did i spend recently", "true": "spending_history", "pred": "spending_history", "confidence": 0.9819, "p_top": 0.982, "latency_s": 12.408887199999299}
+{"query": "how much have i spent this week", "true": "spending_history", "pred": "spending_history", "confidence": 0.9775, "p_top": 0.9777, "latency_s": 12.298683300003177}
+{"query": "i want you paired to my phone", "true": "sync_device", "pred": "sync_device", "confidence": 0.9692, "p_top": 0.9694, "latency_s": 12.33093569999619}
+{"query": "unsync yourself from my device", "true": "sync_device", "pred": "sync_device", "confidence": 0.9628, "p_top": 0.9631, "latency_s": 12.839101899997331}
+{"query": "what taxes do i owe", "true": "taxes", "pred": "taxes", "confidence": 0.9965, "p_top": 0.9966, "latency_s": 12.369089599997096}
+{"query": "do you know the price for my taxes in income", "true": "taxes", "pred": "taxes", "confidence": 0.8963, "p_top": 0.897, "latency_s": 12.455920200001856}
+{"query": "i want to hear your best joke", "true": "tell_joke", "pred": "tell_joke", "confidence": 0.9963, "p_top": 0.9964, "latency_s": 12.362101499995333}
+{"query": "i want to hear a joke about elephants", "true": "tell_joke", "pred": "tell_joke", "confidence": 0.9971, "p_top": 0.9971, "latency_s": 12.32874840000295}
+{"query": "can you text dave and tell him i like his paper", "true": "text", "pred": "text", "confidence": 0.9921, "p_top": 0.9921, "latency_s": 13.10308719999739}
+{"query": "tell jim i'm coming home soon", "true": "text", "pred": "text", "confidence": 0.6884, "p_top": 0.6904, "latency_s": 13.739575699997658}
+{"query": "thanks for trying", "true": "thank_you", "pred": "thank_you", "confidence": 0.927, "p_top": 0.9274, "latency_s": 14.087659900003928}
+{"query": "ai you have given me so much information, thank you", "true": "thank_you", "pred": "thank_you", "confidence": 0.9828, "p_top": 0.9829, "latency_s": 12.611001700002817}
+{"query": "what time is it in the eastern timezone", "true": "time", "pred": "time", "confidence": 0.9522, "p_top": 0.9525, "latency_s": 12.540251200000057}
+{"query": "is it six o clock yet", "true": "time", "pred": "time", "confidence": 0.9236, "p_top": 0.9241, "latency_s": 12.334133299998939}
+{"query": "set a timer for 10 minutes", "true": "timer", "pred": "timer", "confidence": 0.9994, "p_top": 0.9995, "latency_s": 13.582926099996257}
+{"query": "can you set the timer to 20 minutes", "true": "timer", "pred": "timer", "confidence": 0.9987, "p_top": 0.9987, "latency_s": 13.691410400002496}
+{"query": "what is the timezone for la", "true": "timezone", "pred": "timezone", "confidence": 0.9935, "p_top": 0.9935, "latency_s": 13.970164700003807}
+{"query": "which timezone is denver located", "true": "timezone", "pred": "timezone", "confidence": 0.991, "p_top": 0.9911, "latency_s": 16.8704945999998}
+{"query": "when should my tires be changed", "true": "tire_change", "pred": "tire_change", "confidence": 0.9325, "p_top": 0.933, "latency_s": 16.18389500000194}
+{"query": "when would you change my tires", "true": "tire_change", "pred": "tire_change", "confidence": 0.8444, "p_top": 0.8454, "latency_s": 13.920987199999217}
+{"query": "how can i find out what my tire pressure is", "true": "tire_pressure", "pred": "tire_pressure", "confidence": 0.9766, "p_top": 0.9768, "latency_s": 14.429347600002075}
+{"query": "is there enough air in my tires", "true": "tire_pressure", "pred": "tire_pressure", "confidence": 0.9978, "p_top": 0.9978, "latency_s": 13.939378600000055}
+{"query": "check on my to-do list items", "true": "todo_list", "pred": "todo_list", "confidence": 0.8532, "p_top": 0.8541, "latency_s": 13.709902199996577}
+{"query": "is make a hair appointment on my todo list right now", "true": "todo_list", "pred": "todo_list", "confidence": 0.84, "p_top": 0.841, "latency_s": 28.15568709999934}
+{"query": "remove laundry from my to do list", "true": "todo_list_update", "pred": "todo_list_update", "confidence": 0.968, "p_top": 0.9682, "latency_s": 24.938550099999702}
+{"query": "you can take laundry off my todo list", "true": "todo_list_update", "pred": "todo_list_update", "confidence": 0.971, "p_top": 0.9712, "latency_s": 13.833479799999623}
+{"query": "what kind of traffic is there at 9:00 on the route to detroit", "true": "traffic", "pred": "traffic", "confidence": 0.9949, "p_top": 0.9949, "latency_s": 13.788603900000453}
+{"query": "whats the traffic for the drive to the nearest restaurant", "true": "traffic", "pred": "traffic", "confidence": 0.9537, "p_top": 0.954, "latency_s": 13.946330499995383}
+{"query": "what was my recent transaction", "true": "transactions", "pred": "transactions", "confidence": 0.9732, "p_top": 0.9734, "latency_s": 13.8824278999964}
+{"query": "how much was my last target trip", "true": "transactions", "pred": "spending_history", "confidence": 0.2222, "p_top": 0.2273, "latency_s": 13.820323500003724}
+{"query": "help me transfer $100 from my checking to saving account", "true": "transfer", "pred": "transfer", "confidence": 0.9988, "p_top": 0.9988, "latency_s": 13.697959999997693}
+{"query": "transfer $100 from my checking to saving account", "true": "transfer", "pred": "transfer", "confidence": 0.9987, "p_top": 0.9988, "latency_s": 13.806051500003377}
+{"query": "what is dog in spanish", "true": "translate", "pred": "translate", "confidence": 0.9971, "p_top": 0.9972, "latency_s": 13.984819200006314}
+{"query": "how would i say how are you today if i were mexican", "true": "translate", "pred": "translate", "confidence": 0.8536, "p_top": 0.8546, "latency_s": 13.641722200001823}
+{"query": "are there travel alerts for the us", "true": "travel_alert", "pred": "travel_alert", "confidence": 0.9976, "p_top": 0.9976, "latency_s": 13.893449900002452}
+{"query": "mexico travel alerts", "true": "travel_alert", "pred": "travel_alert", "confidence": 0.9875, "p_top": 0.9875, "latency_s": 13.6834358000051}
+{"query": "tell my bank's fraud department i'm going to mexico", "true": "travel_notification", "pred": "travel_notification", "confidence": 0.9266, "p_top": 0.9271, "latency_s": 14.099805500001821}
+{"query": "please let my bank know that i will be visiting spain from june 12th to the 24th", "true": "travel_notification", "pred": "travel_notification", "confidence": 0.9924, "p_top": 0.9924, "latency_s": 13.706679599999916}
+{"query": "what are some interesting things i can do while in raleigh", "true": "travel_suggestion", "pred": "travel_suggestion", "confidence": 0.9844, "p_top": 0.9845, "latency_s": 13.704652599997644}
+{"query": "what are some local attractions in portland", "true": "travel_suggestion", "pred": "travel_suggestion", "confidence": 0.8102, "p_top": 0.8114, "latency_s": 13.668988800003717}
+{"query": "is it possible to take an uber to burger king", "true": "uber", "pred": "uber", "confidence": 0.8191, "p_top": 0.8203, "latency_s": 15.521454100002302}
+{"query": "get me an uber for 3 people uptown", "true": "uber", "pred": "uber", "confidence": 0.9981, "p_top": 0.9981, "latency_s": 17.04998109999724}
+{"query": "i want this song on my pregame playlist", "true": "update_playlist", "pred": "update_playlist", "confidence": 0.9696, "p_top": 0.9698, "latency_s": 13.9283884999968}
+{"query": "can you add this song to my country music playlist", "true": "update_playlist", "pred": "update_playlist", "confidence": 0.9929, "p_top": 0.9929, "latency_s": 13.929378999993787}
+{"query": "call my name", "true": "user_name", "pred": "make_call", "confidence": 0.2105, "p_top": 0.2158, "latency_s": 13.68212680000579}
+{"query": "i need to know the name that you have for me", "true": "user_name", "pred": "user_name", "confidence": 0.9237, "p_top": 0.9242, "latency_s": 13.747491200003424}
+{"query": "are there any required shots in indonesia", "true": "vaccines", "pred": "vaccines", "confidence": 0.9957, "p_top": 0.9957, "latency_s": 19.13524480000342}
+{"query": "do i need to get any shots before i travel to spain", "true": "vaccines", "pred": "vaccines", "confidence": 0.9976, "p_top": 0.9976, "latency_s": 28.515900200000033}
+{"query": "how can i get get a copy of my w2 for tax purposes", "true": "w2", "pred": "w2", "confidence": 0.9888, "p_top": 0.9889, "latency_s": 15.648987799999304}
+{"query": "where can i find a w2", "true": "w2", "pred": "w2", "confidence": 0.9319, "p_top": 0.9324, "latency_s": 14.68707970000105}
+{"query": "how is the weather", "true": "weather", "pred": "weather", "confidence": 0.9963, "p_top": 0.9963, "latency_s": 14.022413200000301}
+{"query": "what are the weather conditions like in seattle", "true": "weather", "pred": "weather", "confidence": 0.9976, "p_top": 0.9976, "latency_s": 13.841057999998156}
+{"query": "what kind of things to you like to outside of work", "true": "what_are_your_hobbies", "pred": "what_are_your_hobbies", "confidence": 0.9274, "p_top": 0.9278, "latency_s": 14.425201099998958}
+{"query": "i want to talk to you about your hobbies", "true": "what_are_your_hobbies", "pred": "what_are_your_hobbies", "confidence": 0.9822, "p_top": 0.9823, "latency_s": 13.652552100000321}
+{"query": "what sorts of tasks can you do", "true": "what_can_i_ask_you", "pred": "what_can_i_ask_you", "confidence": 0.9572, "p_top": 0.9575, "latency_s": 14.535431300006167}
+{"query": "please tell me what subjects you like", "true": "what_can_i_ask_you", "pred": "what_are_your_hobbies", "confidence": 0.747, "p_top": 0.7487, "latency_s": 14.223074800000177}
+{"query": "who am i speaking with", "true": "what_is_your_name", "pred": "user_name", "confidence": 0.3387, "p_top": 0.3431, "latency_s": 14.410410600001342}
+{"query": "what would you like me to call you", "true": "what_is_your_name", "pred": "what_is_your_name", "confidence": 0.9086, "p_top": 0.9092, "latency_s": 14.096553499999573}
+{"query": "what song is currently playing", "true": "what_song", "pred": "what_song", "confidence": 0.9605, "p_top": 0.9608, "latency_s": 14.399291599998833}
+{"query": "what is playing on the speaker at the moment", "true": "what_song", "pred": "what_song", "confidence": 0.8786, "p_top": 0.8794, "latency_s": 14.350850900002115}
+{"query": "where were you thought of", "true": "where_are_you_from", "pred": "where_are_you_from", "confidence": 0.4089, "p_top": 0.4128, "latency_s": 14.325591599998006}
+{"query": "so, where do you come from", "true": "where_are_you_from", "pred": "where_are_you_from", "confidence": 0.9076, "p_top": 0.9082, "latency_s": 14.249753200005216}
+{"query": "change audio to whisper mode", "true": "whisper_mode", "pred": "whisper_mode", "confidence": 0.9952, "p_top": 0.9952, "latency_s": 13.832676300000458}
+{"query": "whisper mode must be left", "true": "whisper_mode", "pred": "whisper_mode", "confidence": 0.8924, "p_top": 0.8932, "latency_s": 13.787264399994456}
+{"query": "do i control you", "true": "who_do_you_work_for", "pred": "who_made_you", "confidence": 0.3368, "p_top": 0.3412, "latency_s": 14.335406999998668}
+{"query": "who is it that you work for", "true": "who_do_you_work_for", "pred": "who_do_you_work_for", "confidence": 0.9312, "p_top": 0.9316, "latency_s": 14.19125239999994}
+{"query": "i must know who programmed you", "true": "who_made_you", "pred": "who_made_you", "confidence": 0.9776, "p_top": 0.9777, "latency_s": 17.966109699998924}
+{"query": "what company is responsible for this design", "true": "who_made_you", "pred": "who_made_you", "confidence": 0.4599, "p_top": 0.4635, "latency_s": 14.729365699997288}
+{"query": "you're right", "true": "yes", "pred": "yes", "confidence": 0.8266, "p_top": 0.8277, "latency_s": 14.480585500001325}
+{"query": "yes is my answer", "true": "yes", "pred": "yes", "confidence": 0.9206, "p_top": 0.9211, "latency_s": 13.931170299998485}

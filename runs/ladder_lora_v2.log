@@ -1,0 +1,94 @@
+test=5500 (teacher acc vs truth 0.9045)
+val=3100 (teacher acc vs truth 0.9265)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2840.31it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  27%|##6       | 53/199 [00:00<00:00, 525.58it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 1801.11it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  32%|###2      | 64/199 [00:00<00:00, 628.03it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 1666.49it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2208.94it/s]
+D:\269\code\.venv\Lib\site-packages\peft\utils\save_and_load.py:364: UserWarning: Could not find a config file in BAAI/bge-small-en-v1.5 - will assume that the vocabulary was not modified.
+  warnings.warn(
+seed=0 n=   10 lora            acc=0.043 ece=0.074 T=50.00 cls=  9 | tau=.8 cov=0.00 sys=0.905  fit=89.2s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  90%|########9 | 179/199 [00:00<00:00, 1784.39it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 1964.12it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  73%|#######3  | 146/199 [00:00<00:00, 1456.13it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 1927.06it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  41%|####      | 81/199 [00:00<00:00, 788.32it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 1813.21it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2639.12it/s]
+seed=0 n=   30 lora            acc=0.129 ece=0.098 T=5.06 cls= 28 | tau=.8 cov=0.00 sys=0.905  fit=78.2s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2340.63it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2242.68it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2496.16it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2223.10it/s]
+seed=0 n=  100 lora            acc=0.352 ece=0.046 T=1.40 cls= 74 | tau=.8 cov=0.07 sys=0.901  fit=151.4s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  36%|###5      | 71/199 [00:00<00:00, 692.71it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 1791.74it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  97%|#########7| 194/199 [00:00<00:00, 1928.49it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 1978.20it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2566.81it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3366.09it/s]
+seed=0 n=  300 lora            acc=0.572 ece=0.053 T=1.06 cls=126 | tau=.8 cov=0.26 sys=0.901  fit=386.4s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2629.15it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3826.87it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3311.77it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2763.85it/s]
+seed=0 n= 1000 lora            acc=0.796 ece=0.022 T=0.83 cls=150 | tau=.8 cov=0.61 sys=0.913  fit=761.4s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2896.61it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2814.66it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3109.39it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2970.04it/s]
+seed=0 n= 3000 lora            acc=0.833 ece=0.015 T=0.78 cls=151 | tau=.8 cov=0.66 sys=0.909  fit=884.4s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3037.84it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3095.62it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3082.60it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2768.93it/s]
+seed=1 n=   10 lora            acc=0.047 ece=0.243 T=2.78 cls=  9 | tau=.8 cov=0.01 sys=0.905  fit=30.7s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3061.51it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2635.30it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2904.78it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3084.90it/s]
+seed=1 n=   30 lora            acc=0.124 ece=0.107 T=2.00 cls= 25 | tau=.8 cov=0.01 sys=0.905  fit=44.5s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2642.37it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2713.04it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2788.19it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2959.72it/s]
+seed=1 n=  100 lora            acc=0.314 ece=0.031 T=1.37 cls= 72 | tau=.8 cov=0.08 sys=0.905  fit=83.2s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2670.94it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3491.10it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2842.86it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2733.64it/s]
+seed=1 n=  300 lora            acc=0.562 ece=0.035 T=1.02 cls=127 | tau=.8 cov=0.28 sys=0.904  fit=236.7s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2885.73it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2852.41it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2614.92it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2702.67it/s]
+seed=1 n= 1000 lora            acc=0.770 ece=0.024 T=0.79 cls=150 | tau=.8 cov=0.63 sys=0.905  fit=760.7s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2683.18it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2592.84it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3288.86it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3108.91it/s]
+seed=1 n= 3000 lora            acc=0.839 ece=0.019 T=0.74 cls=150 | tau=.8 cov=0.68 sys=0.911  fit=888.5s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2692.90it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3582.92it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2689.17it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2690.85it/s]
+seed=2 n=   10 lora            acc=0.048 ece=0.058 T=50.00 cls= 10 | tau=.8 cov=0.00 sys=0.905  fit=27.6s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2549.04it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2800.41it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2731.18it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3262.29it/s]
+seed=2 n=   30 lora            acc=0.126 ece=0.103 T=2.20 cls= 26 | tau=.8 cov=0.01 sys=0.905  fit=42.2s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2567.44it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 3001.07it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2970.15it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2782.55it/s]
+seed=2 n=  100 lora            acc=0.319 ece=0.057 T=1.55 cls= 69 | tau=.8 cov=0.05 sys=0.905  fit=84.9s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 4034.99it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2432.38it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2667.82it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2548.48it/s]
+seed=2 n=  300 lora            acc=0.592 ece=0.028 T=1.05 cls=127 | tau=.8 cov=0.30 sys=0.903  fit=247.5s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2519.00it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2920.94it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2664.27it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2555.90it/s]
+seed=2 n= 1000 lora            acc=0.795 ece=0.017 T=0.84 cls=150 | tau=.8 cov=0.59 sys=0.904  fit=754.3s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2684.58it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2667.54it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 4422.14it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 2799.82it/s]
+seed=2 n= 3000 lora            acc=0.838 ece=0.015 T=0.74 cls=150 | tau=.8 cov=0.67 sys=0.911  fit=895.2s

@@ -1,0 +1,75 @@
+{
+  "teacher_model": "deepseek-v4-1-flash-economy",
+  "teacher_test_accuracy": 0.9045454545454545,
+  "teacher_test_in_scope_accuracy": 0.9044444444444445,
+  "teacher_test_oos_recall": 0.905,
+  "teacher_test_oos_precision": 0.8302752293577982,
+  "teacher_api_calls": 23845,
+  "teacher_input_tokens": 51483971,
+  "teacher_output_tokens": 925231,
+  "teacher_list_cost_usd_per_call": 0.0005215396711100113,
+  "teacher_median_latency_s": 2.0858,
+  "decider_zero_shot": {
+    "n": 350,
+    "acc": 0.9085714285714286,
+    "acc_in_scope": 0.9166666666666666,
+    "oos_recall": 0.86,
+    "oos_precision": 0.8958333333333334,
+    "teacher_acc_same_subset": 0.8942857142857142,
+    "ece_confidence": 0.05321657142857142,
+    "ece_p_top": 0.05418514285714292,
+    "mean_confidence": 0.8812234285714285,
+    "aurc": 0.01306131262903435,
+    "median_latency_s": 12.380853200000274,
+    "gated": [
+      {
+        "tau": 0.3,
+        "coverage": 0.8571428571428571,
+        "system_accuracy": 0.9085714285714286,
+        "served_accuracy": 0.9166666666666666,
+        "oos_escalation_recall": 0.86,
+        "oos_served_wrong": 0.14
+      },
+      {
+        "tau": 0.5,
+        "coverage": 0.8314285714285714,
+        "system_accuracy": 0.9114285714285715,
+        "served_accuracy": 0.9347079037800687,
+        "oos_escalation_recall": 0.88,
+        "oos_served_wrong": 0.12
+      },
+      {
+        "tau": 0.7,
+        "coverage": 0.7514285714285714,
+        "system_accuracy": 0.9085714285714286,
+        "served_accuracy": 0.9695817490494296,
+        "oos_escalation_recall": 0.96,
+        "oos_served_wrong": 0.04
+      },
+      {
+        "tau": 0.8,
+        "coverage": 0.7142857142857143,
+        "system_accuracy": 0.9085714285714286,
+        "served_accuracy": 0.984,
+        "oos_escalation_recall": 0.98,
+        "oos_served_wrong": 0.02
+      },
+      {
+        "tau": 0.9,
+        "coverage": 0.64,
+        "system_accuracy": 0.9057142857142857,
+        "served_accuracy": 0.9910714285714286,
+        "oos_escalation_recall": 1.0,
+        "oos_served_wrong": 0.0
+      },
+      {
+        "tau": 0.95,
+        "coverage": 0.5314285714285715,
+        "system_accuracy": 0.9,
+        "served_accuracy": 0.9946236559139785,
+        "oos_escalation_recall": 1.0,
+        "oos_served_wrong": 0.0
+      }
+    ]
+  }
+}

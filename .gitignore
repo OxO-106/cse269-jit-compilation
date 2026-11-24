@@ -1,0 +1,22 @@
+# secrets (the Volcengine key lives in D:\269\api-key.txt, outside this repo; never commit one)
+api-key.txt
+*.key
+.env
+.env.*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# vendored upstream clones (each has its own git history; installed into .venv)
+ai-functions/
+strands-decider/
+
+# CLINC150 raw data: jit/data.py downloads it from github.com/clinc/oos-eval
+data/
+
+# large, regenerable run outputs
+runs/models/
+runs/emb_*.npz
+runs/ladder_curves/

@@ -1,0 +1,234 @@
+model=deepseek-v4-1-flash-economy prompt_hash=9e1ca8af304e
+[train] 500/15250  errors=0  tokens=1,098,969  5.3 q/s
+[train] 1000/15250  errors=0  tokens=2,198,433  5.5 q/s
+[train] 1500/15250  errors=0  tokens=3,297,922  5.5 q/s
+[train] 2000/15250  errors=0  tokens=4,397,262  5.1 q/s
+[train] 2500/15250  errors=0  tokens=5,496,168  5.0 q/s
+[train] 3000/15250  errors=0  tokens=6,595,534  5.0 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 3500/15250  errors=0  tokens=7,694,276  5.0 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 4000/15250  errors=0  tokens=8,790,881  5.0 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 4500/15250  errors=0  tokens=9,889,623  4.9 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 5000/15250  errors=0  tokens=10,988,815  4.9 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 5500/15250  errors=0  tokens=12,087,902  4.9 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 6000/15250  errors=0  tokens=13,187,627  4.9 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 6500/15250  errors=0  tokens=14,285,411  4.9 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 7000/15250  errors=0  tokens=15,385,073  4.8 q/s
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+[train] 7500/15250  errors=0  tokens=16,485,457  4.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 8000/15250  errors=0  tokens=17,578,674  4.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 8500/15250  errors=0  tokens=18,677,623  4.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 9000/15250  errors=0  tokens=19,776,126  4.8 q/s
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 9500/15250  errors=0  tokens=20,872,708  4.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 10000/15250  errors=0  tokens=21,968,874  4.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+[train] 10500/15250  errors=0  tokens=23,067,040  4.8 q/s
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 11000/15250  errors=0  tokens=24,161,232  4.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 11500/15250  errors=0  tokens=25,259,126  4.8 q/s
+[train] 12000/15250  errors=0  tokens=26,358,071  4.7 q/s
+[train] 12500/15250  errors=0  tokens=27,456,270  4.8 q/s
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+[train] 13000/15250  errors=0  tokens=28,555,147  4.8 q/s
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 13500/15250  errors=0  tokens=29,651,816  4.8 q/s
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 14000/15250  errors=0  tokens=30,750,474  4.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 14500/15250  errors=0  tokens=31,849,070  4.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 15000/15250  errors=0  tokens=32,948,113  4.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[train] 15250/15250  errors=0  tokens=33,497,422  4.7 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[val] 500/3100  errors=0  tokens=899,258  5.8 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[val] 1000/3100  errors=0  tokens=1,809,059  5.7 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[val] 1500/3100  errors=0  tokens=2,745,985  5.6 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[val] 2000/3100  errors=0  tokens=3,706,502  5.6 q/s
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[val] 2500/3100  errors=0  tokens=4,616,002  5.6 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[val] 3000/3100  errors=0  tokens=5,523,558  5.6 q/s
+[val] 3100/3100  errors=0  tokens=5,708,236  5.6 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+[test] 500/5500  errors=0  tokens=1,099,217  4.7 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[test] 1000/5500  errors=0  tokens=2,198,041  4.7 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[test] 1500/5500  errors=0  tokens=3,296,868  4.6 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[test] 2000/5500  errors=0  tokens=4,395,636  4.7 q/s
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[test] 2500/5500  errors=0  tokens=5,495,575  4.7 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[test] 3000/5500  errors=0  tokens=6,594,909  4.6 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+tool_name=<FinalAnswer> | replacing with error message due to max_tokens truncation.
+OpenAI threw rate limit error
+[test] 3500/5500  errors=0  tokens=7,693,483  4.7 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[test] 4000/5500  errors=0  tokens=8,791,531  4.7 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[test] 4500/5500  errors=0  tokens=9,889,921  4.7 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[test] 5000/5500  errors=0  tokens=10,986,374  4.7 q/s
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+OpenAI threw rate limit error
+[test] 5500/5500  errors=0  tokens=12,082,810  4.7 q/s

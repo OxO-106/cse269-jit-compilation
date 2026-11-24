@@ -1,0 +1,348 @@
+{
+  "target": "logreg",
+  "tau": 0.9,
+  "n": 6000,
+  "recompile_every": 250,
+  "teacher_cost_per_call_usd": 0.0005215396711100113,
+  "compute_usd_per_hour": 1.0,
+  "teacher_calls": 2665,
+  "student_answers": 3335,
+  "overall_accuracy": 0.9263333333333333,
+  "always_llm_accuracy": 0.9223333333333333,
+  "total_cost_jit": 1.4230347693415266,
+  "total_cost_llm": 3.1292380266600963,
+  "total_compile_s": 119.27356500000315,
+  "breakeven_step": 292,
+  "compiles": [
+    {
+      "version": 1,
+      "step": 20,
+      "n_train": 20,
+      "classes": 18,
+      "T": 0.6949270105629564,
+      "compile_s": 2.9558313000015914
+    },
+    {
+      "version": 2,
+      "step": 270,
+      "n_train": 270,
+      "classes": 120,
+      "T": 0.519769281699779,
+      "compile_s": 1.0114582000023802
+    },
+    {
+      "version": 3,
+      "step": 548,
+      "n_train": 520,
+      "classes": 149,
+      "T": 0.4469374791160253,
+      "compile_s": 4.505282999998599
+    },
+    {
+      "version": 4,
+      "step": 926,
+      "n_train": 770,
+      "classes": 150,
+      "T": 0.47691720462610365,
+      "compile_s": 5.495707900001435
+    },
+    {
+      "version": 5,
+      "step": 1378,
+      "n_train": 1020,
+      "classes": 150,
+      "T": 0.4653608078750967,
+      "compile_s": 8.287812199996551
+    },
+    {
+      "version": 6,
+      "step": 1973,
+      "n_train": 1270,
+      "classes": 150,
+      "T": 0.4765862962452052,
+      "compile_s": 10.705206600003294
+    },
+    {
+      "version": 7,
+      "step": 2569,
+      "n_train": 1520,
+      "classes": 150,
+      "T": 0.46862909368136874,
+      "compile_s": 11.100921199998993
+    },
+    {
+      "version": 8,
+      "step": 3322,
+      "n_train": 1770,
+      "classes": 150,
+      "T": 0.5020437316890525,
+      "compile_s": 15.40170510000462
+    },
+    {
+      "version": 9,
+      "step": 4036,
+      "n_train": 2020,
+      "classes": 150,
+      "T": 0.5073009915926597,
+      "compile_s": 17.68877490000159
+    },
+    {
+      "version": 10,
+      "step": 4825,
+      "n_train": 2270,
+      "classes": 150,
+      "T": 0.5113709201406493,
+      "compile_s": 19.409448699996574
+    },
+    {
+      "version": 11,
+      "step": 5572,
+      "n_train": 2520,
+      "classes": 150,
+      "T": 0.521818859175857,
+      "compile_s": 22.71141589999752
+    }
+  ],
+  "windows": [
+    {
+      "start": 1,
+      "end": 250,
+      "accuracy": 0.952,
+      "teacher_rate": 1.0,
+      "student_rate": 0.0,
+      "student_accuracy": 0.0,
+      "cum_cost_jit": 0.13120598202750383,
+      "cum_cost_llm": 0.13038491777750338
+    },
+    {
+      "start": 251,
+      "end": 500,
+      "accuracy": 0.952,
+      "teacher_rate": 0.892,
+      "student_rate": 0.108,
+      "student_accuracy": 1.0,
+      "cum_cost_jit": 0.2477902892961492,
+      "cum_cost_llm": 0.26076983555500743
+    },
+    {
+      "start": 501,
+      "end": 750,
+      "accuracy": 0.936,
+      "teacher_rate": 0.7,
+      "student_rate": 0.3,
+      "student_accuracy": 0.9866666666666667,
+      "cum_cost_jit": 0.34031119924040165,
+      "cum_cost_llm": 0.3911547533325115
+    },
+    {
+      "start": 751,
+      "end": 1000,
+      "accuracy": 0.924,
+      "teacher_rate": 0.668,
+      "student_rate": 0.332,
+      "student_accuracy": 0.963855421686747,
+      "cum_cost_jit": 0.42893490984355254,
+      "cum_cost_llm": 0.5215396711100155
+    },
+    {
+      "start": 1001,
+      "end": 1250,
+      "accuracy": 0.924,
+      "teacher_rate": 0.528,
+      "student_rate": 0.472,
+      "student_accuracy": 0.9661016949152542,
+      "cum_cost_jit": 0.4977781464300747,
+      "cum_cost_llm": 0.6519245888875196
+    },
+    {
+      "start": 1251,
+      "end": 1500,
+      "accuracy": 0.912,
+      "teacher_rate": 0.496,
+      "student_rate": 0.504,
+      "student_accuracy": 0.9603174603174603,
+      "cum_cost_jit": 0.5647512357032712,
+      "cum_cost_llm": 0.7823095066650236
+    },
+    {
+      "start": 1501,
+      "end": 1750,
+      "accuracy": 0.924,
+      "teacher_rate": 0.408,
+      "student_rate": 0.592,
+      "student_accuracy": 0.972972972972973,
+      "cum_cost_jit": 0.6179482821564929,
+      "cum_cost_llm": 0.9126944244425277
+    },
+    {
+      "start": 1751,
+      "end": 2000,
+      "accuracy": 0.896,
+      "teacher_rate": 0.44,
+      "student_rate": 0.56,
+      "student_accuracy": 0.9714285714285714,
+      "cum_cost_jit": 0.6782913144785956,
+      "cum_cost_llm": 1.0430793422200317
+    },
+    {
+      "start": 2001,
+      "end": 2250,
+      "accuracy": 0.924,
+      "teacher_rate": 0.396,
+      "student_rate": 0.604,
+      "student_accuracy": 0.9602649006622517,
+      "cum_cost_jit": 0.7299237419184872,
+      "cum_cost_llm": 1.1734642599975358
+    },
+    {
+      "start": 2251,
+      "end": 2500,
+      "accuracy": 0.916,
+      "teacher_rate": 0.428,
+      "student_rate": 0.572,
+      "student_accuracy": 0.986013986013986,
+      "cum_cost_jit": 0.7857284867272589,
+      "cum_cost_llm": 1.3038491777750398
+    },
+    {
+      "start": 2501,
+      "end": 2750,
+      "accuracy": 0.924,
+      "teacher_rate": 0.344,
+      "student_rate": 0.656,
+      "student_accuracy": 0.9817073170731707,
+      "cum_cost_jit": 0.8336644876649423,
+      "cum_cost_llm": 1.4342340955525439
+    },
+    {
+      "start": 2751,
+      "end": 3000,
+      "accuracy": 0.94,
+      "teacher_rate": 0.328,
+      "student_rate": 0.672,
+      "student_accuracy": 0.9940476190476191,
+      "cum_cost_jit": 0.8764307406959636,
+      "cum_cost_llm": 1.564619013330048
+    },
+    {
+      "start": 3001,
+      "end": 3250,
+      "accuracy": 0.932,
+      "teacher_rate": 0.364,
+      "student_rate": 0.636,
+      "student_accuracy": 0.9874213836477987,
+      "cum_cost_jit": 0.9238908507669751,
+      "cum_cost_llm": 1.695003931107552
+    },
+    {
+      "start": 3251,
+      "end": 3500,
+      "accuracy": 0.9,
+      "teacher_rate": 0.324,
+      "student_rate": 0.676,
+      "student_accuracy": 0.9822485207100592,
+      "cum_cost_jit": 0.9704138155435543,
+      "cum_cost_llm": 1.825388848885056
+    },
+    {
+      "start": 3501,
+      "end": 3750,
+      "accuracy": 0.928,
+      "teacher_rate": 0.352,
+      "student_rate": 0.648,
+      "student_accuracy": 0.9938271604938271,
+      "cum_cost_jit": 1.0163093066012356,
+      "cum_cost_llm": 1.95577376666256
+    },
+    {
+      "start": 3751,
+      "end": 4000,
+      "accuracy": 0.88,
+      "teacher_rate": 0.348,
+      "student_rate": 0.652,
+      "student_accuracy": 0.950920245398773,
+      "cum_cost_jit": 1.061683257987807,
+      "cum_cost_llm": 2.086158684440064
+    },
+    {
+      "start": 4001,
+      "end": 4250,
+      "accuracy": 0.92,
+      "teacher_rate": 0.364,
+      "student_rate": 0.636,
+      "student_accuracy": 0.9811320754716981,
+      "cum_cost_jit": 1.1140569166421523,
+      "cum_cost_llm": 2.216543602217568
+    },
+    {
+      "start": 4251,
+      "end": 4500,
+      "accuracy": 0.94,
+      "teacher_rate": 0.328,
+      "student_rate": 0.672,
+      "student_accuracy": 0.9702380952380952,
+      "cum_cost_jit": 1.1568231696731737,
+      "cum_cost_llm": 2.346928519995072
+    },
+    {
+      "start": 4501,
+      "end": 4750,
+      "accuracy": 0.924,
+      "teacher_rate": 0.288,
+      "student_rate": 0.712,
+      "student_accuracy": 0.9719101123595506,
+      "cum_cost_jit": 1.1943740259930948,
+      "cum_cost_llm": 2.477313437772576
+    },
+    {
+      "start": 4751,
+      "end": 5000,
+      "accuracy": 0.952,
+      "teacher_rate": 0.308,
+      "student_rate": 0.692,
+      "student_accuracy": 0.9826589595375722,
+      "cum_cost_jit": 1.239924094196343,
+      "cum_cost_llm": 2.60769835555008
+    },
+    {
+      "start": 5001,
+      "end": 5250,
+      "accuracy": 0.932,
+      "teacher_rate": 0.348,
+      "student_rate": 0.652,
+      "student_accuracy": 0.9877300613496932,
+      "cum_cost_jit": 1.2852980455829144,
+      "cum_cost_llm": 2.738083273327584
+    },
+    {
+      "start": 5251,
+      "end": 5500,
+      "accuracy": 0.92,
+      "teacher_rate": 0.348,
+      "student_rate": 0.652,
+      "student_accuracy": 0.9877300613496932,
+      "cum_cost_jit": 1.3306719969694858,
+      "cum_cost_llm": 2.868468191105088
+    },
+    {
+      "start": 5501,
+      "end": 5750,
+      "accuracy": 0.944,
+      "teacher_rate": 0.288,
+      "student_rate": 0.712,
+      "student_accuracy": 0.9887640449438202,
+      "cum_cost_jit": 1.374531579928295,
+      "cum_cost_llm": 2.9988531088825923
+    },
+    {
+      "start": 5751,
+      "end": 6000,
+      "accuracy": 0.936,
+      "teacher_rate": 0.372,
+      "student_rate": 0.628,
+      "student_accuracy": 0.9808917197452229,
+      "cum_cost_jit": 1.4230347693415266,
+      "cum_cost_llm": 3.1292380266600963
+    }
+  ]
+}

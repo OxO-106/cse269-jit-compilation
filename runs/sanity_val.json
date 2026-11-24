@@ -1,0 +1,297 @@
+{
+  "model": "deepseek-v4-1-flash-economy",
+  "prompt_hash": "9e1ca8af304e",
+  "split": "val",
+  "n": 500,
+  "errors": 0,
+  "accuracy": 0.92,
+  "in_scope_accuracy": 0.9222222222222223,
+  "in_scope_predicted_oos": 0.03111111111111111,
+  "domain_accuracy": 0.96,
+  "oos_recall": 0.9,
+  "oos_precision": 0.7627118644067796,
+  "teacher_calls": 500,
+  "mean_input_tokens": 2158.812,
+  "mean_output_tokens": 38.69,
+  "median_latency_s": 67.99834999999999,
+  "top_confusions": [
+    {
+      "true": "distance",
+      "pred": "directions",
+      "count": 3
+    },
+    {
+      "true": "reminder_update",
+      "pred": "reminder",
+      "count": 3
+    },
+    {
+      "true": "bill_balance",
+      "pred": "bill_due",
+      "count": 2
+    },
+    {
+      "true": "maybe",
+      "pred": "oos",
+      "count": 2
+    },
+    {
+      "true": "meal_suggestion",
+      "pred": "restaurant_suggestion",
+      "count": 2
+    },
+    {
+      "true": "oos",
+      "pred": "calculator",
+      "count": 2
+    },
+    {
+      "true": "text",
+      "pred": "oos",
+      "count": 2
+    },
+    {
+      "true": "accept_reservations",
+      "pred": "restaurant_reservation",
+      "count": 1
+    },
+    {
+      "true": "cancel",
+      "pred": "oos",
+      "count": 1
+    },
+    {
+      "true": "definition",
+      "pred": "oos",
+      "count": 1
+    },
+    {
+      "true": "directions",
+      "pred": "gas",
+      "count": 1
+    },
+    {
+      "true": "freeze_account",
+      "pred": "oos",
+      "count": 1
+    },
+    {
+      "true": "income",
+      "pred": "payday",
+      "count": 1
+    },
+    {
+      "true": "last_maintenance",
+      "pred": "oil_change_when",
+      "count": 1
+    },
+    {
+      "true": "new_card",
+      "pred": "oos",
+      "count": 1
+    }
+  ],
+  "wrong": [
+    {
+      "query": "can i make a reservation at chima steakhouse in chicago",
+      "true": "accept_reservations",
+      "pred": "restaurant_reservation"
+    },
+    {
+      "query": "how much is due on the gas bill",
+      "true": "bill_balance",
+      "pred": "bill_due"
+    },
+    {
+      "query": "how much do i have to pay for my shell gas card bill",
+      "true": "bill_balance",
+      "pred": "bill_due"
+    },
+    {
+      "query": "scrap",
+      "true": "cancel",
+      "pred": "oos"
+    },
+    {
+      "query": "what is the meaning of fascism",
+      "true": "definition",
+      "pred": "oos"
+    },
+    {
+      "query": "where is the nearest gas station",
+      "true": "directions",
+      "pred": "gas"
+    },
+    {
+      "query": "can you tell me the drive time to the nearest gas station",
+      "true": "distance",
+      "pred": "directions"
+    },
+    {
+      "query": "whats the travel time to redmond right now",
+      "true": "distance",
+      "pred": "directions"
+    },
+    {
+      "query": "i need to know how long it will take me to get to the bank",
+      "true": "distance",
+      "pred": "directions"
+    },
+    {
+      "query": "may you stop a paymet on my account",
+      "true": "freeze_account",
+      "pred": "oos"
+    },
+    {
+      "query": "what do i get paid",
+      "true": "income",
+      "pred": "payday"
+    },
+    {
+      "query": "when did i change my oil",
+      "true": "last_maintenance",
+      "pred": "oil_change_when"
+    },
+    {
+      "query": "i couldn't say",
+      "true": "maybe",
+      "pred": "oos"
+    },
+    {
+      "query": "i just don't know",
+      "true": "maybe",
+      "pred": "oos"
+    },
+    {
+      "query": "i am bored and need new dinner recommendations",
+      "true": "meal_suggestion",
+      "pred": "restaurant_suggestion"
+    },
+    {
+      "query": "suggestions for thai food",
+      "true": "meal_suggestion",
+      "pred": "restaurant_suggestion"
+    },
+    {
+      "query": "how does one apply for a master card",
+      "true": "new_card",
+      "pred": "oos"
+    },
+    {
+      "query": "invalid",
+      "true": "no",
+      "pred": "oos"
+    },
+    {
+      "query": "what's the definition of nuclear engineering",
+      "true": "oos",
+      "pred": "definition"
+    },
+    {
+      "query": "set a warning for when my bank account starts running low",
+      "true": "oos",
+      "pred": "alarm"
+    },
+    {
+      "query": "how do i compute the median of a set of numbers",
+      "true": "oos",
+      "pred": "calculator"
+    },
+    {
+      "query": "you want to know about current time now",
+      "true": "oos",
+      "pred": "time"
+    },
+    {
+      "query": "can you tell me how to compute price per ounce",
+      "true": "oos",
+      "pred": "calculator"
+    },
+    {
+      "query": "purchase me the kyrie 4s",
+      "true": "order",
+      "pred": "oos"
+    },
+    {
+      "query": "what is my plan for the day",
+      "true": "reminder",
+      "pred": "calendar"
+    },
+    {
+      "query": "what does my running list of stuff to do list",
+      "true": "reminder",
+      "pred": "todo_list"
+    },
+    {
+      "query": "i need to make a reminder",
+      "true": "reminder_update",
+      "pred": "reminder"
+    },
+    {
+      "query": "remind me to check the steak",
+      "true": "reminder_update",
+      "pred": "reminder"
+    },
+    {
+      "query": "i need a reminder to order cookies",
+      "true": "reminder_update",
+      "pred": "reminder"
+    },
+    {
+      "query": "is there a reservation available at ruth chris today",
+      "true": "restaurant_reservation",
+      "pred": "accept_reservations"
+    },
+    {
+      "query": "allow me to turn on the lights",
+      "true": "restaurant_reservation",
+      "pred": "smart_home"
+    },
+    {
+      "query": "do you know the temperature of the ac",
+      "true": "smart_home",
+      "pred": "oos"
+    },
+    {
+      "query": "tell carl that he sucks",
+      "true": "text",
+      "pred": "oos"
+    },
+    {
+      "query": "inform carl that he is an awful human being",
+      "true": "text",
+      "pred": "oos"
+    },
+    {
+      "query": "show me all video games purchased",
+      "true": "transactions",
+      "pred": "oos"
+    },
+    {
+      "query": "alert my bank and tell them that i will be in vermont",
+      "true": "travel_notification",
+      "pred": "travel_alert"
+    },
+    {
+      "query": "what are popular mountains to hike in arizona",
+      "true": "travel_suggestion",
+      "pred": "oos"
+    },
+    {
+      "query": "where can i get the form for my taxes",
+      "true": "w2",
+      "pred": "taxes"
+    },
+    {
+      "query": "let me know when you were made",
+      "true": "where_are_you_from",
+      "pred": "who_made_you"
+    },
+    {
+      "query": "i know that the statement is true",
+      "true": "yes",
+      "pred": "oos"
+    }
+  ],
+  "wall_s": 136.6
+}
